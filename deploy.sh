@@ -6,4 +6,4 @@ set -e
 # Build the site
 pelican content -o output -s publishconf.py
 
-npx wrangler pages deploy output --project-name=royalcitysuds --commit-dirty=true
+npx wrangler pages deploy output --project-name=royalcitysuds --commit-dirty=true --branch=main
